@@ -1,6 +1,6 @@
 {
   "name": "date-range-diff",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Basic simple NPM package in getting date range difference between 2 specific dates.",
   "main": "index.js",
   "scripts": {
