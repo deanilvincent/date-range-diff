@@ -9,9 +9,9 @@ Basic simple NPM package in getting date range difference between 2 specific dat
 # Basic Setup & Usage
 
 ```
-const dateDiff =  require("date-range-diff");
+const dateDiff = require("date-range-diff");
 
-console.log(dateDiff("2020-01-26", "2020-01-24"))
+console.log(dateDiff("2020-01-26", "2020-01-24").days)
 // returns 2
 ```
 Feel free to clone or fork this project:  `https://github.com/deanilvincent/random-word-by-letter.git`
