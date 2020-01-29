@@ -14,13 +14,17 @@ module.exports = (firstDate, secondDate) => {
     return undefined;
   }
 
-  const getDaysDiffBetweenDates =
-    (new Date(firstDate) - new Date(secondDate)) / (1000 * 3600 * 24);
+  firstDate = new Date(firstDate);
+  secondDate = new Date(secondDate);
 
-  if (getDaysDiffBetweenDates < 0) {
-    console.error("Invalid date result. Negative value.");
-    return "Invalid date result. Negative value.";
+  const days = (firstDate - secondDate) / (1000 * 3600 * 24);
+
+  if (firstDate < secondDate) {
+    console.error("First date must be greater than second date.");
+    return undefined;
   }
 
-  return getDaysDiffBetweenDates;
+  return {
+    days
+  };
 };
