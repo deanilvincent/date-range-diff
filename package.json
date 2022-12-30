@@ -32,6 +32,6 @@
   "homepage": "https://github.com/deanilvincent/date-range-diff#readme",
   "dependencies": {
     "chai": "^4.2.0",
-    "mocha": "^7.0.1"
+    "mocha": "^10.2.0"
   }
 }
